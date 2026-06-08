@@ -18,7 +18,7 @@
             letter-spacing: -0.04em;
         }
         .text-hero-bold {
-            font-size: clamp(2.5rem, 8vw, 6.5rem);
+            font-size: clamp(2.5rem, 7vw, 6.5rem);
             line-height: 1.05;
             font-weight: 800;
         }
@@ -29,26 +29,26 @@
 </head>
 <body class="text-zinc-900 antialiased selection:bg-zinc-900 selection:text-white">
 
-    <nav class="fixed top-0 left-0 w-full z-40 bg-[#faf9f6]/80 backdrop-blur-md border-b border-zinc-200/60 px-6 py-4 md:px-12 flex justify-between items-center">
-        <a href="#" class="font-syne text-xl tracking-tighter uppercase font-bold">Epilogue.Florist</a>
+    <nav class="fixed top-0 left-0 w-full z-40 bg-[#faf9f6]/80 backdrop-blur-md border-b border-zinc-200/60 px-4 py-3 md:px-12 flex justify-between items-center">
+        <a href="#" class="font-syne text-lg md:text-xl tracking-tighter uppercase font-bold">Epilogue.Florist</a>
         <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide uppercase">
             <a href="#koleksi" class="hover:text-zinc-500 transition">Koleksi</a>
             <a href="#sosmed" class="hover:text-zinc-500 transition">Sosmed</a>
             <a href="#kontak" class="hover:text-zinc-500 transition">Alamat & Kontak</a>
         </div>
-        <button onclick="openModal()" class="bg-zinc-900 text-white px-5 py-2 text-xs uppercase tracking-wider font-semibold rounded-full hover:bg-zinc-800 transition">
+        <button onclick="openModal()" class="bg-zinc-900 text-white px-4 py-2 text-[11px] md:text-xs uppercase tracking-wider font-semibold rounded-full hover:bg-zinc-800 transition">
             Pesan Sekarang
         </button>
     </nav>
 
-    <header class="relative w-full min-h-[85vh] flex items-center overflow-hidden">
+    <header class="relative w-full min-h-[75vh] md:min-h-[85vh] flex items-center overflow-hidden">
         <img src="hero.jfif" 
              alt="Fresh Flower Market Background" 
              class="absolute inset-0 w-full h-full object-cover object-center">
         
-        <div class="absolute inset-0 bg-gradient-to-r from-[#faf9f6]/95 via-[#faf9f6]/70 to-[#faf9f6]/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#faf9f6]/95 via-[#faf9f6]/80 to-[#faf9f6]/30 md:to-[#faf9f6]/10"></div>
 
-        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pt-32 pb-12">
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pt-28 md:pt-32 pb-12">
             <h1 class="font-syne text-hero-bold uppercase">
                 <span class="block text-zinc-950">Merajut</span>
                 <span class="block text-zinc-950">Emosi</span>
@@ -56,209 +56,210 @@
                 <span class="block text-zinc-500/80">Kelopak</span>
                 <span class="block text-zinc-500/80">Bunga.</span>
             </h1>
-            <p class="mt-8 text-zinc-700 md:text-lg max-w-xl font-normal leading-relaxed">
+            <p class="mt-6 md:mt-8 text-zinc-700 text-sm md:text-lg max-w-xl font-normal leading-relaxed">
                 Buket bunga premium yang dirangkai secara lokal dengan good quality standart. Dibuat khusus untuk merayakan setiap momen berhargamu.
             </p>
         </div>
     </header>
 
-    <section class="px-6 md:px-12 max-w-7xl mx-auto mt-12">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[250px] md:auto-rows-[300px]">
+    <section class="px-4 md:px-12 max-w-7xl mx-auto mt-8 md:mt-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[200px] sm:auto-rows-[250px] md:auto-rows-[300px]">
             
             <div class="md:col-span-2 md:row-span-2 relative overflow-hidden group rounded-2xl bg-zinc-200">
                 <img src="bento1.jfif" alt="Premium Bouquet" class="w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 ease-out scale-100 group-hover:scale-105">
-                <div class="absolute bottom-6 left-6 text-white z-10">
-                    <span class="text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Koleksi Signature</span>
-                    <h3 class="font-syne text-2xl font-bold mt-2">The White Elegance</h3>
+                <div class="absolute bottom-4 left-4 md:bottom-6 md:left-6 text-white z-10">
+                    <span class="text-[10px] md:text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Koleksi Signature</span>
+                    <h3 class="font-syne text-xl md:text-2xl font-bold mt-2">The White Elegance</h3>
                 </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/50 via-transparent to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent"></div>
             </div>
             
             <div class="md:row-span-2 relative overflow-hidden group rounded-2xl bg-zinc-200">
                 <img src="bento2.jfif" alt="Rose Bouquet" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700 ease-out scale-100 group-hover:scale-105">
-                <div class="absolute bottom-6 left-6 text-white z-10">
-                    <span class="text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Favorit</span>
-                    <h3 class="font-syne text-2xl font-bold mt-2">Blush Romance</h3>
+                <div class="absolute bottom-4 left-4 md:bottom-6 md:left-6 text-white z-10">
+                    <span class="text-[10px] md:text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Favorit</span>
+                    <h3 class="font-syne text-xl md:text-2xl font-bold mt-2">Blush Romance</h3>
                 </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/50 via-transparent to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent"></div>
             </div>
             
-            <div class="bg-zinc-900 text-zinc-100 p-8 rounded-2xl flex flex-col justify-between">
-                <span class="text-xs uppercase tracking-widest text-zinc-400">FILOSOFI KAMI</span>
-                <p class="font-syne text-xl font-medium leading-snug">"Setiap tangkai bunga punya cerita, kami di sini untuk membantu Anda menyampaikannya."</p>
+            <div class="bg-zinc-900 text-zinc-100 p-6 md:p-8 rounded-2xl flex flex-col justify-between min-h-[150px] md:min-h-auto">
+                <span class="text-[10px] md:text-xs uppercase tracking-widest text-zinc-400">FILOSOFI KAMI</span>
+                <p class="font-syne text-base md:text-xl font-medium leading-snug">"Setiap tangkai bunga punya cerita, kami di sini untuk membantu Anda menyampaikannya."</p>
                 <div></div>
             </div>
             
             <div class="md:col-span-2 relative overflow-hidden group rounded-2xl bg-zinc-200">
                 <img src="bento3.jfif" alt="Rustic Bouquet" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700 ease-out scale-100 group-hover:scale-105">
-                <div class="absolute bottom-6 left-6 text-white z-10">
-                    <span class="text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Edisi Terbatas</span>
-                    <h3 class="font-syne text-2xl font-bold mt-2">Rustic Autumn</h3>
+                <div class="absolute bottom-4 left-4 md:bottom-6 md:left-6 text-white z-10">
+                    <span class="text-[10px] md:text-xs uppercase tracking-widest bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">Edisi Terbatas</span>
+                    <h3 class="font-syne text-xl md:text-2xl font-bold mt-2">Rustic Autumn</h3>
                 </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/50 via-transparent to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent"></div>
             </div>
         </div>
     </section>
 
-    <section id="koleksi" class="py-24 px-6 md:px-12 max-w-7xl mx-auto border-t border-zinc-200 mt-24">
-        <div class="mb-12">
-            <span class="text-xs font-semibold tracking-widest text-zinc-400 uppercase">Katalog Terkini</span>
-            <h2 class="font-syne text-3xl md:text-5xl font-bold uppercase mt-2">Pilih Gaya Buketmu</h2>
+    <section id="koleksi" class="py-16 md:py-24 px-4 md:px-12 max-w-7xl mx-auto border-t border-zinc-200 mt-16 md:mt-24">
+        <div class="mb-8 md:mb-12">
+            <span class="text-[11px] md:text-xs font-semibold tracking-widest text-zinc-400 uppercase">Katalog Terkini</span>
+            <h2 class="font-syne text-2xl md:text-5xl font-bold uppercase mt-2">Pilih Gaya Buketmu</h2>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-8 md:gap-y-12">
             
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk1.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk1.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">White Elegance</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 350.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">White Elegance</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 350.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk2.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk2.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Blush Romance</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 450.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Blush Romance</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 450.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk3.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk3.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Rustic Autumn</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 500.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Rustic Autumn</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 500.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk4.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk4.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Monochrome Cotton</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 380.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Monochrome Cotton</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 380.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk5.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk5.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Crimson Desire</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 420.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Crimson Desire</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 420.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk6.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk6.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Sunshine Tulip</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 600.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Sunshine Tulip</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 600.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk7.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk7.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">Pastel Dreams</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 320.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">Pastel Dreams</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 320.000</p>
             </div>
 
             <div onclick="openModal()" class="group cursor-pointer">
-                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-4">
-                    <img src="produk8.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="overflow-hidden rounded-xl bg-zinc-100 aspect-[3/4] mb-3 md:mb-4">
+                    <img src="produk8.jfif" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
                 </div>
-                <h4 class="font-medium text-base group-hover:underline">blue Dreams</h4>
-                <p class="text-sm text-zinc-500 mt-1">Rp 500.000</p>
+                <h4 class="font-medium text-sm md:text-base group-hover:underline truncate">blue Dreams</h4>
+                <p class="text-xs md:text-sm text-zinc-500 mt-0.5 md:mt-1">Rp 500.000</p>
             </div>
             
         </div>
     </section>
 
-    <div class="relative w-full overflow-hidden mt-24">
+    <div class="relative w-full overflow-hidden mt-16 md:mt-24">
         <img src="footer.jfif" alt="Footer Flower Background" class="absolute inset-0 w-full h-full object-cover object-center">
-        
-        <div class="absolute inset-0 bg-[#faf9f6]/85"></div>
+        <div class="absolute inset-0 bg-[#faf9f6]/90 md:bg-[#faf9f6]/85"></div>
 
         <div class="relative z-10 w-full">
-            <section id="sosmed" class="py-24 px-6 md:px-12 max-w-7xl mx-auto border-b border-zinc-300">
-                <div class="mb-12">
-                    <span class="text-xs font-semibold tracking-widest text-zinc-500 uppercase">Social Channels</span>
-                    <h2 class="font-syne text-3xl md:text-5xl font-bold uppercase mt-2 text-zinc-900">Ikuti Akun Resmi Kami</h2>
+            <section id="sosmed" class="py-16 md:py-24 px-4 md:px-12 max-w-7xl mx-auto border-b border-zinc-300">
+                <div class="mb-8 md:mb-12">
+                    <span class="text-[11px] md:text-xs font-semibold tracking-widest text-zinc-500 uppercase">Social Channels</span>
+                    <h2 class="font-syne text-2xl md:text-5xl font-bold uppercase mt-2 text-zinc-900">Ikuti Akun Resmi Kami</h2>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <a href="https://tiktok.com" target="_blank" class="group block border border-zinc-300 p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
+                    <a href="https://tiktok.com" target="_blank" class="group block border border-zinc-300 p-6 md:p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono text-zinc-500 group-hover:text-zinc-400">@epilogueflorist</span><span class="text-xl group-hover:translate-x-2 transition-transform duration-300">→</span></div>
-                        <h3 class="font-syne text-2xl font-bold mt-6">TIKTOK</h3>
+                        <h3 class="font-syne text-xl md:text-2xl font-bold mt-4 md:mt-6">TIKTOK</h3>
                         <p class="text-xs text-zinc-600 mt-2 group-hover:text-zinc-400">Video estetis proses merangkai bunga dibalik layar.</p>
                     </a>
-                    <a href="https://instagram.com" target="_blank" class="group block border border-zinc-300 p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
+                    <a href="https://instagram.com" target="_blank" class="group block border border-zinc-300 p-6 md:p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono text-zinc-500 group-hover:text-zinc-400">@epilogueflorist</span><span class="text-xl group-hover:translate-x-2 transition-transform duration-300">→</span></div>
-                        <h3 class="font-syne text-2xl font-bold mt-6">INSTAGRAM</h3>
+                        <h3 class="font-syne text-xl md:text-2xl font-bold mt-4 md:mt-6">INSTAGRAM</h3>
                         <p class="text-xs text-zinc-600 mt-2 group-hover:text-zinc-400">Katalog harian dan testimoni real pembeli.</p>
                     </a>
-                    <a href="https://facebook.com" target="_blank" class="group block border border-zinc-300 p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
+                    <a href="https://facebook.com" target="_blank" class="group block border border-zinc-300 p-6 md:p-8 rounded-2xl hover:bg-zinc-900 hover:text-white transition-all duration-300 bg-white/40 backdrop-blur-md text-zinc-900">
                         <div class="flex justify-between items-center"><span class="text-xs font-mono text-zinc-500 group-hover:text-zinc-400">Epilogue Florist Indonesia</span><span class="text-xl group-hover:translate-x-2 transition-transform duration-300">→</span></div>
-                        <h3 class="font-syne text-2xl font-bold mt-6">FACEBOOK</h3>
+                        <h3 class="font-syne text-xl md:text-2xl font-bold mt-4 md:mt-6">FACEBOOK</h3>
                         <p class="text-xs text-zinc-600 mt-2 group-hover:text-zinc-400">Informasi diskon member & info promo berkala.</p>
                     </a>
                 </div>
             </section>
 
-            <footer id="kontak" class="pt-20 pb-12 px-6 md:px-12 text-zinc-700">
-                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-zinc-300 pb-16 items-start">
-                    <div>
-                        <h2 class="font-syne text-4xl font-bold text-zinc-900 uppercase tracking-tight leading-none">Kirim Bunga <br>Hari Ini.</h2>
-                        <button onclick="openModal()" class="mt-6 bg-zinc-900 text-white px-6 py-3 rounded-full text-xs uppercase tracking-wider font-bold hover:bg-zinc-800 transition">Pesan via Form</button>
+            <footer id="kontak" class="pt-16 pb-12 px-4 md:px-12 text-zinc-700">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 border-b border-zinc-300 pb-12 md:pb-16 items-start">
+                    <div class="space-y-4">
+                        <h2 class="font-syne text-3xl md:text-4xl font-bold text-zinc-900 uppercase tracking-tight leading-none">Kirim Bunga <br class="hidden md:block">Hari Ini.</h2>
+                        <button onclick="openModal()" class="w-full md:w-auto bg-zinc-900 text-white px-6 py-3 rounded-full text-xs uppercase tracking-wider font-bold hover:bg-zinc-800 transition">Pesan via Form</button>
                     </div>
 
-                    <div class="space-y-4">
-                        <h3 class="font-syne text-sm font-bold tracking-widest uppercase text-zinc-500">ALAMAT STUDIO</h3>
-                        <p class="text-zinc-900 font-light leading-relaxed">Jl. Sukowati No.31, Setro, Kalicacing, Kec. Sidomukti,<br>Kota Salatiga, Jawa Tengah 50724</p>
-                        <a href="https://maps.app.goo.gl/QENK1mUtkzW8JyyVA" target="_blank" class="inline-block text-xs uppercase border-b border-zinc-900 pb-1 font-medium hover:text-zinc-600 transition">Petunjuk Arah Google Maps →</a>
+                    <div class="space-y-3">
+                        <h3 class="font-syne text-xs font-bold tracking-widest uppercase text-zinc-500">ALAMAT STUDIO</h3>
+                        <p class="text-zinc-900 text-sm font-light leading-relaxed">Jl. Sukowati No.31, Setro, Kalicacing, Kec. Sidomukti,<br>Kota Salatiga, Jawa Tengah 50724</p>
+                        <div class="w-full mt-2 rounded-xl overflow-hidden shadow-sm border border-zinc-200 aspect-video md:aspect-[4/3] max-h-[180px]">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.197772199102!2d110.5029481!3d-7.331672199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7836c4f97c41%3A0xcafcbe84fecbb321!2sSalon%20Mimosa!5e0!3m2!1sid!2sid!4v1780888933049!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
 
                     <div class="space-y-6">
                         <div class="space-y-2">
-                            <h3 class="font-syne text-sm font-bold tracking-widest uppercase text-zinc-500">KONTAK</h3>
-                            <p class="text-zinc-900 text-lg font-medium">hello@epilogueflorist.com</p>
-                            <p class="text-zinc-900 text-lg font-medium">+62 812 3456 789</p>
+                            <h3 class="font-syne text-xs font-bold tracking-widest uppercase text-zinc-500">KONTAK</h3>
+                            <p class="text-zinc-900 text-base md:text-lg font-medium break-all">hello@epilogueflorist.com</p>
+                            <p class="text-zinc-900 text-base md:text-lg font-medium">+62 812 3456 789</p>
                         </div>
-                        <div class="space-y-1 text-sm font-light">
+                        <div class="space-y-1 text-xs md:text-sm font-light">
                             <p class="flex justify-between border-b border-zinc-200 pb-1"><span>Senin - Jumat:</span> <span class="text-zinc-900">09:00 - 19:00</span></p>
                             <p class="flex justify-between border-b border-zinc-200 pb-1"><span>Sabtu - Minggu:</span> <span class="text-zinc-900">10:00 - 17:00</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-7xl mx-auto pt-8 flex justify-center text-xs text-zinc-500">
+                <div class="max-w-7xl mx-auto pt-8 flex justify-center text-[11px] text-zinc-500">
                     <p>© 2026 Epilogue Florist. All rights reserved.</p>
                 </div>
             </footer>
         </div>
     </div>
 
-    <div id="orderModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-zinc-950/60 backdrop-blur-sm transition-all duration-300">
-        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg overflow-hidden border border-zinc-100">
-            <div class="bg-[#111827] text-white px-6 py-4 flex items-center justify-between">
-                <h3 class="font-semibold text-sm uppercase tracking-wide flex items-center gap-2">📝 Form Pemesanan Epilogue Florist</h3>
-                <button onclick="closeModal()" class="text-zinc-400 hover:text-white text-xl font-bold">×</button>
+    <div id="orderModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 md:p-4 bg-zinc-950/60 backdrop-blur-sm transition-all duration-300">
+        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg overflow-hidden border border-zinc-100 flex flex-col max-h-[90vh]">
+            <div class="bg-[#111827] text-white px-5 py-3.5 flex items-center justify-between shrink-0">
+                <h3 class="font-semibold text-xs md:text-sm uppercase tracking-wide flex items-center gap-2">📝 Form Pemesanan Epilogue Florist</h3>
+                <button onclick="closeModal()" class="text-zinc-400 hover:text-white text-2xl font-light leading-none">&times;</button>
             </div>
-            <form id="flowerOrderForm" class="p-6 space-y-4 max-h-[80vh] overflow-y-auto">
+            <form id="flowerOrderForm" class="p-5 space-y-4 overflow-y-auto flex-1 text-sm">
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Nama Lengkap</label>
-                    <input type="text" id="clientName" required placeholder="Masukkan nama" class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Nama Lengkap</label>
+                    <input type="text" id="clientName" required placeholder="Masukkan nama" class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Nomor Telepon</label>
-                    <input type="tel" id="clientPhone" required placeholder="Contoh: 081234567xxx" class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Nomor Telepon</label>
+                    <input type="tel" id="clientPhone" required placeholder="Contoh: 081234567xxx" class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Alamat Lengkap Pengiriman</label>
-                    <textarea id="clientAddress" required rows="3" placeholder="Masukkan alamat tujuan pengiriman bunga" class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 resize-none"></textarea>
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Alamat Lengkap Pengiriman</label>
+                    <textarea id="clientAddress" required rows="2" placeholder="Masukkan alamat tujuan pengiriman bunga" class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 resize-none"></textarea>
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Pilihan Buket Bunga</label>
-                    <select id="flowerPackage" class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 bg-white">
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Pilihan Buket Bunga</label>
+                    <select id="flowerPackage" class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 bg-white">
                         <option value="White Elegance - Rp 350.000">💐 White Elegance - Rp 350.000</option>
                         <option value="Blush Romance - Rp 450.000">💐 Blush Romance - Rp 450.000</option>
                         <option value="Rustic Autumn - Rp 500.000">💐 Rustic Autumn - Rp 500.000</option>
@@ -270,16 +271,16 @@
                     </select>
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Jumlah Buket (Pcs)</label>
-                    <input type="number" id="flowerQuantity" min="1" value="1" required class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Jumlah Buket (Pcs)</label>
+                    <input type="number" id="flowerQuantity" min="1" value="1" required class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold text-zinc-700 uppercase tracking-wider mb-1">Catatan Tambahan (Opsional)</label>
-                    <input type="text" id="clientNotes" placeholder="Contoh: Tulisan di kartu ucapan" class="w-full px-4 py-2.5 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
+                    <label class="block text-[10px] font-semibold text-zinc-700 uppercase tracking-wider mb-1">Catatan Tambahan (Opsional)</label>
+                    <input type="text" id="clientNotes" placeholder="Contoh: Tulisan di kartu ucapan" class="w-full px-3 py-2 border border-zinc-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900">
                 </div>
-                <div class="flex justify-end gap-3 pt-4 border-t border-zinc-100 items-center">
-                    <button type="button" onclick="closeModal()" class="text-sm font-medium text-zinc-500 hover:text-zinc-900 px-3">Batal</button>
-                    <button type="submit" class="bg-zinc-950 text-white px-6 py-2.5 text-sm font-semibold rounded-lg hover:bg-zinc-800 transition flex items-center gap-2">🚀 Kirim Pesanan</button>
+                <div class="flex justify-end gap-3 pt-3 border-t border-zinc-100 items-center shrink-0">
+                    <button type="button" onclick="closeModal()" class="text-sm font-medium text-zinc-500 hover:text-zinc-900 px-2 py-1">Batal</button>
+                    <button type="submit" class="bg-zinc-950 text-white px-5 py-2 text-sm font-semibold rounded-lg hover:bg-zinc-800 transition flex items-center gap-2">🚀 Kirim Pesanan</button>
                 </div>
             </form>
         </div>
